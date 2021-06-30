@@ -9,7 +9,7 @@ apt install zip -y; apt install unzip -y
 cd /etc; rm -rf ssl stunnel; clear
 echo -e "Substituindo certificados SSL..."
 sleep 3
-wget --no-check-certificate https://www.dropbox.com/s/j98ur1bswrg4al0/ssl.zip
+wget --no-check-certificate https://www.dropbox.com/s/m20vwwqatpn4rji/certificado-ssl.zip?dl=0
 unzip ssl.zip; rm ssl.zip; clear
 echo -e "Atualização do certificado SSL concluída"
 echo -e "Reinicie o servidor para que as mudancas "
